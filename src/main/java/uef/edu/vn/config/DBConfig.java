@@ -14,14 +14,14 @@ public class DBConfig {
             = "com.mysql.cj.jdbc.Driver";
 
     private static final String URL
-            = "jdbc:mysql://localhost:3306/DemoHotel"
+            = "jdbc:mysql://sql12.freesqldatabase.com:3306/sql12831978"
             + "?useSSL=false"
             + "&serverTimezone=Asia/Ho_Chi_Minh"
             + "&allowPublicKeyRetrieval=true";
 
-    private static final String USERNAME = "root";
+    private static final String USERNAME = "sql12831978";
 
-    private static final String PASSWORD = "";
+    private static final String PASSWORD = "pKkw8eu5yW";
 
     @Bean
     public DataSource dataSource() {

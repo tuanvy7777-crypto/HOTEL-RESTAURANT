@@ -37,17 +37,5 @@
         <property name="suffix"
                   value=".jsp" />
            
-<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-<property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
-<property name="url" value="jdbc:mysql://sql12.freesqldatabase.com:3306/sql12831978"/>
-<property name="username" value="sql12831978"/>
-<property name="password" value="pKkw8eu5yW"/>
-</bean>
-<!--  JdbcTemplate Bean  -->
-<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
-<property name="dataSource" ref="dataSource"/>
-</bean>
-
-</beans>
  </bean>
  </bean>

@@ -30,7 +30,7 @@
                 <div class="logo-section">
 
                     <img
-                        src="${pageContext.request.contextPath}/resources/images/logo.png"
+                        src="${pageContext.request.contextPath}/resources/images//logo/logo.png"
                         alt="Logo"
                         class="logo">
 
